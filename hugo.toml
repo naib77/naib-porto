@@ -1,0 +1,30 @@
+baseURL = "https://naib77.github.io/naib-porto/"
+languageCode = "en-us"
+title = "Md. Naib Hossain Khan"
+theme = "porto"
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  name = "Md. Naib Hossain Khan"
+  tagline = "Sr. Software Engineer | Full Stack Developer"
+  email = "knaib19@gmail.com"
+  github = "https://github.com/naib77"
+  linkedin = "https://t.ly/z6Iu"
+  avatar = "images/profile.jpg"
+  description = "I am a seasoned developer with 8+ years of experience in Java, Spring Boot, Angular, React, Kafka, and microservices."
+
+[[params.projects]]
+  name = "Agroshift Sera App"
+  url = "#"
+  description = "Designed and developed scalable backend/frontend architecture for Agroshift."
+
+[[params.projects]]
+  name = "Mfi Identity Service"
+  url = "#"
+  description = "Implemented reactive microservices using WebFlux, Kafka, PostgreSQL."
+
+[[params.projects]]
+  name = "Smart Vending Platform"
+  url = "#"
+  description = "Built ReactJS + Spring Boot app for gas meter integration."

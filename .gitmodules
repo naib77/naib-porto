@@ -1,0 +1,6 @@
+[submodule "themes/porto"]
+	path = themes/porto
+	url = https://github.com/hugo-porto/theme.git
+[submodule "public"]
+	path = public
+	url = git@github.com:naib77/naib-porto.git
