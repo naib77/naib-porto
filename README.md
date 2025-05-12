@@ -1,14 +1,14 @@
 
 # 🌐 Md. Naib Hossain Khan — Developer Portfolio
 
-Welcome to my personal portfolio site built with [Hugo](https://gohugo.io/) and powered by the minimalist [hugo-porto](https://themes.gohugo.io/themes/hugo-porto/) theme. This site showcases my work, skills, and experience in software engineering, specializing in full-stack development, backend architecture, and scalable microservices.
+Welcome to my personal portfolio site built with [Hugo](https://gohugo.io/) and a theme from the [Hugo Themes Showcase](https://themes.gohugo.io/). This site showcases my work, skills, and experience in software engineering, specializing in full-stack development, backend architecture, and scalable microservices.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Static Site Generator:** [Hugo](https://gohugo.io/)
-- **Theme:** [hugo-porto](https://themes.gohugo.io/themes/hugo-porto/)
+- **Theme:** From [Hugo Themes](https://themes.gohugo.io/)
 - **Hosting:** GitHub Pages
 - **CI/CD:** Manual (via `gh-pages` branch)
 
@@ -34,7 +34,7 @@ Follow the official instructions here:
 hugo new site naib-porto
 cd naib-porto
 git init
-git submodule add https://github.com/angelodlfrtr/hugo-porto.git themes/porto
+git submodule add <selected-theme-repo-url> themes/<theme-name>
 ```
 
 ### 4. Set up `config.toml`
@@ -43,7 +43,7 @@ git submodule add https://github.com/angelodlfrtr/hugo-porto.git themes/porto
 baseURL = "https://naib77.github.io/naib-porto/"
 languageCode = "en-us"
 title = "Md. Naib Hossain Khan"
-theme = "porto"
+theme = "<theme-name>"
 disableKinds = ["taxonomy", "term"]
 
 [params]
@@ -127,14 +127,14 @@ git init
 git checkout -b gh-pages
 git remote add origin https://github.com/naib77/naib-porto.git
 git add .
-git commit -m "Deploy hugo-porto portfolio"
+git commit -m "Deploy portfolio"
 git push -u origin gh-pages --force
 
 # Optional: commit submodule
 cd ..
 git submodule add git@github.com:naib77/naib-porto.git public
 git add .
-git commit -m "Deploy hugo-porto portfolio"
+git commit -m "Deploy portfolio"
 git push -u origin main --force
 ```
 
